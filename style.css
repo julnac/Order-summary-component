@@ -1,0 +1,138 @@
+body {
+    background-color: var(--pale_blue);
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    
+    /* width: 1440px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 !important;
+}
+:root {
+
+    --pale_blue: hsl(225, 100%, 94%);
+    --bright_blue: hsl(245, 75%, 52%);
+
+    --very_pale_blue: hsl(225, 100%, 98%);
+    --desaturated_blue: hsl(224, 23%, 55%);
+    --dark_blue: hsl(223, 47%, 23%);
+    --purple: hsl(239, 55%, 61%);
+}
+/* .background{
+    text-align: center;
+} */
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 585px;
+    background-color: white;
+    border-radius: 20px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hero-img {
+    background-image: url(./images/illustration-hero.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 175px;
+    border-radius: 20px 20px 0 0;
+}
+.content {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h1{
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    color: var(--dark_blue);
+}
+h2{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    color: var(--dark_blue);
+}
+p{
+    font-size: 16px;
+    color: var(--desaturated_blue);
+    line-height: 170%;
+    margin: 15px;
+    font-weight: 500;
+}
+a{
+    font-weight: 700;
+    color: var(--desaturated_blue);
+    text-decoration: none;
+}
+a:hover{
+    color: var(--dark_blue);
+}
+.plan {
+    background-color: var(--very_pale_blue);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.current_plan {
+    display: flex;
+}
+.icon {
+    background-image: url(./images/icon-music.svg);
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+}
+.plan p{
+    margin: 0
+}
+.plan a{
+    text-decoration: underline;
+    color: var(--bright_blue)
+}
+.plan a:hover{
+    text-decoration: none;
+    color: var(--purple)
+}
+.type {
+    margin-left: 15px;
+}
+button {
+    background-color: var(--bright_blue);
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    margin: 25px 0 25px 0;
+}
+button:hover {
+    background-color: var(--purple);
+}
+button a{
+    color: white;
+}
+button a:hover{
+    color: white;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 40px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+/* 375px */
