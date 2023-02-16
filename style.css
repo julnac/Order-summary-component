@@ -20,9 +20,7 @@ body {
     --dark_blue: hsl(223, 47%, 23%);
     --purple: hsl(239, 55%, 61%);
 }
-/* .background{
-    text-align: center;
-} */
+
 
 .container {
     margin-left: auto;
@@ -31,6 +29,7 @@ body {
     height: 585px;
     background-color: white;
     border-radius: 20px;
+    box-shadow: 1px 5px 50px 2px var(--desaturated_blue);
 
     position: absolute;
     top: 50%;
@@ -67,7 +66,7 @@ h2{
 p{
     font-size: 16px;
     color: var(--desaturated_blue);
-    line-height: 170%;
+    line-height: 150%;
     margin: 15px;
     font-weight: 500;
 }
@@ -117,6 +116,8 @@ button {
     padding: 15px;
     width: 100%;
     margin: 25px 0 25px 0;
+    box-shadow: 1px 10px 10px var(--pale_blue);
+
 }
 button:hover {
     background-color: var(--purple);
